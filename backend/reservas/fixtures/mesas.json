@@ -1,0 +1,22 @@
+[
+  {
+    "model": "reservas.mesa",
+    "pk": 1,
+    "fields": { "numero": 1, "capacidad": 4 }
+  },
+  {
+    "model": "reservas.mesa",
+    "pk": 2,
+    "fields": { "numero": 2, "capacidad": 6 }
+  },
+  {
+    "model": "reservas.mesa",
+    "pk": 3,
+    "fields": { "numero": 3, "capacidad": 2 }
+  },
+  {
+    "model": "reservas.mesa",
+    "pk": 4,
+    "fields": { "numero": 4, "capacidad": 4 }
+  }
+]
