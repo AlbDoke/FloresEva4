@@ -1,10 +1,6 @@
 import axios from "axios";
 
-const apiBaseUrl = import.meta.env.VITE_API_BASE_URL?.trim();
-
-if (!apiBaseUrl) {
-  throw new Error("Falta VITE_API_BASE_URL en las variables de entorno");
-}
+const apiBaseUrl = "http://98.93.222.0:8000";
 
 const api = axios.create({
   baseURL: apiBaseUrl,
