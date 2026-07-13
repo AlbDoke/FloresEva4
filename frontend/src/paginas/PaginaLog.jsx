@@ -17,7 +17,7 @@ export default function PaginaLog() {
       localStorage.setItem("refreshToken", res.data.refresh);
       window.location.href = "/disponibilidad";
     } catch (err) {
-      setError(err.response?.data?.detail || "Error de autenticación");
+      setError(JSON.stringify(err.response?.data) || "Error de autenticación");
     } finally {
       setLoading(false);
     }

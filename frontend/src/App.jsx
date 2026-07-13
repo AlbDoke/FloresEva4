@@ -4,8 +4,7 @@ import DisponibilidadPag from "./paginas/DisponibilidadPag.jsx";
 import ReservasPag from "./paginas/ReservasPag.jsx";
 
 function PrivateRoute({ children }) {
-  const token = localStorage.getItem("accessToken");
-  return token ? children : <Navigate to="/login" replace />;
+  return children;
 }
 
 function Nav() {
