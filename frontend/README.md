@@ -1,5 +1,12 @@
 # React + Vite
 
+## API URL configuration
+
+The frontend reads the backend URL from `VITE_API_BASE_URL`.
+
+- Local default (if variable is missing): `http://localhost:8000`
+- Production (Azure Static Web Apps): set `VITE_API_BASE_URL` in SWA **Configuration > Application settings** to your backend HTTPS URL (for example, `https://your-backend-domain`).
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
